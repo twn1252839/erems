@@ -385,6 +385,89 @@
     </div>
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <!-- END - PAGE CONTAINER -->
+    <div class="modal fade" id="yesModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">確認【審查核准】</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12 py-2">
+                        <dl class="row mb-3">
+                            <dt class="col-sm-4">申請單位</dt>
+                            <dd class="col-sm-8">國立臺灣科技大學</dd>
+                            <dt class="col-sm-4">測驗類型</dt>
+                            <dd class="col-sm-8">資格測驗</dd>
+
+                            <dt class="col-sm-4">測驗日期</dt>
+                            <dd class="col-sm-8"> 111/03/18（五）</dd>
+                            <dt class="col-sm-4">審查結果</dt>
+                            <dd class="col-sm-8"> 核准</dd>
+                        </dl>
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <label for="textareaInput1" class="mb-2">審查結果說明</label>
+                                <textarea id="textareaInput1" class="form-control" placeholder="請蝓入說明文字或選擇錯誤項目帶入..."
+                                    rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <label class="mb-2">日誌備註</label>
+                                <textarea id="_dm-textareaInput" class="form-control" placeholder="請輸入"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">取 消</button>
+                    <button type="button" class="btn btn-primary">送 出</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="noModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">確認【審査不核准】</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12 py-2">
+                        <dl class="row mb-3">
+                            <dt class="col-sm-4">申請單位</dt>
+                            <dd class="col-sm-8">國立臺灣科技大學</dd>
+                            <dt class="col-sm-4">測驗類型</dt>
+                            <dd class="col-sm-8"> 資格測驗</dd>
+                            <dt class="col-sm-4"> 測驗日期</dt>
+                            <dd class="col-sm-8">111/03/18（五）</dd>
+                            <dt class="col-sm-4">審查結果</dt>
+                            <dd class="col-sm-8">核准</dd>
+                        </dl>
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <label for="textareaInput2" class="mb-2">審査結果說明*</label>
+                                <textarea id="textareaInput2" class="form-control" placeholder="請輸入說明文字或選擇錯誤項目帶入"
+                                    rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <label class="mb-2">日誌備註</label>
+                                <textarea id="_dm-textareaInput" class="form-control" placeholder="請輸入"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">取 消</button>
+                    <button type="button" class="btn btn-primary">送 出</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- SCROLL TO TOP BUTTON -->
     <div class="scroll-container">
         <a href="#root" class="scroll-page rounded-circle ratio ratio-1x1" aria-label="Scroll button"></a>
