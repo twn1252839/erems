@@ -65,18 +65,21 @@
                 <div class="content__wrap">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="#">測驗人員成績複查申請</a></li>
-                            <li class="breadcrumb-item">測驗人員成績複查申請 #SN123456789</li>
+                            <li class="breadcrumb-item"><a href="#">業務員</a></li>
+                            <li class="breadcrumb-item">王大明 (A123456789)</li>
                         </ol>
                     </nav>
                     <!-- END : Breadcrumb -->
                     <div class="d-flex flex-md-row flex-column mt-4 justify-content-between mb-2">
                         <div class="d-flex flex-column">
-                            <h2 class="">登錄記錄 #SN123456789</h2>
+                            <h2 class="">王大明 (A123456789)</h2>
+                            <p>業務員系統編號 SN123456789</p>
                         </div>
                         <div class="d-flex gap-2 align-content-center float-end flex-wrap">
+                            <a href=""><button
+                                    class="btn btn-outline-secondary d-flex align-items-center gap-2">編輯身分勾稽資訊</button></a>
                             <button class="btn btn-outline-danger d-flex align-items-center gap-2"
-                                data-bs-toggle="modal" data-bs-target="#Modal1">標示審查錯誤</button>
+                                data-bs-toggle="modal" data-bs-target="#Modal1">刪除</button>
                             <a href=""><button class="btn btn-outline-secondary d-flex align-items-center gap-2"><i
                                         class="pli-calendar-4"></i>日誌紀錄</button></a>
                         </div>
@@ -85,181 +88,219 @@
             </div>
             <div class="content__boxed">
                 <div class="content__wrap">
-
-                    <div class="card bg-white p-4">
+                    <div class="card bg-white p-4 mb-3">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="row mb-2">
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="in1" class="form-label">作業代碼*</label>
-                                            <input type="text" class="form-control" id="in3" value=""
-                                                placeholder="D 停止招攬" disabled="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="in1" class="form-label">姓名*</label>
-                                            <input type="text" class="form-control" id="in4" value="" placeholder="王大明"
-                                                disabled="">
-                                        </div>
-
-                                    </div>
+                            <div class="row mb-4">
+                                <div class="col-md-3">
+                                    <dl class="row mb-0">
+                                        <dt class="col-sm-3">姓名：</dt>
+                                        <dd class="col-sm-8">張00</dd>
+                                        <dt class="col-sm-3">身份字號:</dt>
+                                        <dd class="col-sm-8">A123456789</dd>
+                                        <dt class="col-sm-3">出生日期:</dt>
+                                        <dd class="col-sm-8">70/12/25</dd>
+                                        <dt class="col-sm-3">性別:</dt>
+                                        <dd class="col-sm-8">男</dd>
+                                        <dt class="col-sm-3">學歷:</dt>
+                                        <dd class="col-sm-8">大學</dd>
+                                        <dt class="col-sm-3">初登日期:</dt>
+                                        <dd class="col-sm-8">107/10/20</dd>
+                                        <dt class="col-sm-3">最近換證日期:</dt>
+                                        <dd class="col-sm-8">112/10/20</dd>
+                                        <dt class="col-sm-3">登錄類別:</dt>
+                                        <dd class="col-sm-8">第1類</dd>
+                                        <dt class="col-sm-3">業務員狀態:</dt>
+                                        <dd class="col-sm-8">正常</dd>
+                                    </dl>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row mb-2">
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="in1" class="form-label">身分字號*</label>
-                                            <input type="text" class="form-control" id="in5" value=""
-                                                placeholder="A123456789" disabled="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="in1" class="form-label">出生日期*</label>
-                                            <input type="text" class="form-control" id="in6" value=""
-                                                placeholder="70/08/06" disabled="">
-                                        </div>
-
-                                    </div>
+                                <div class="col-md-3">
+                                    <dl class="row mb-0">
+                                        <dt class="col-sm-3">所屬公司:</dt>
+                                        <dd class="col-sm-8">新光人壽</dd>
+                                        <dt class="col-sm-3">最近登錄狀態:</dt>
+                                        <dd class="col-sm-8">B發證 <br> (新光人壽11302/26)</dd>
+                                        <dt class="col-sm-3">授權招攬行為範圍:</dt>
+                                        <dd class="col-sm-8">解釋保險商品內容及保單條款 <br> 說明填寫要保書注意專項<br>
+                                            轉送要保文件及保單<br>xxxxxxxxxxxxx</dd>
+                                        <dt class="col-sm-3">授權招攬保險種類:</dt>
+                                        <dd class="col-sm-8">一般人身保險 <br> 投資型保險商品<br>
+                                            以外幣收付之非投資型保險商品<br>xxxxxxxxxxxxx</dd>
+                                    </dl>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="row mb-2">
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="in1" class="form-label">登錄日期*</label>
-                                            <div class="input-group">
-                                                <input id="datepicker" type="text" class="form-control border-end-0"
-                                                    placeholder="MM DD, YYYY">
-                                                <span class="input-group-text border-start-0">
-                                                    <i class="bi bi-calendar-week fs-5"></i>
-                                                </span>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
+                                <div class="col-md-3">
+                                    <dl class="row mb-0">
+                                        <dt class="col-sm-3">產保險身分勾稽:</dt>
+                                        <dd class="col-sm-8">xxxxxxxxxxxx產險公司<br>(113/02/25 13:20)</dd>
+                                        <dt class="col-sm-3">保經代身分勾稽:</dt>
+                                        <dd class="col-sm-8">xxxxxxxxxxxx<br>(113/02/25 13:20)</dd>
+                                        <dt class="col-sm-3">單位主管職務:</dt>
+                                        <dd class="col-sm-8">xxxxxxxxxxxxx通訊處<br>xxxxxxxxxxxxx通訊處</dd>
+                                    </dl>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- <h4 class="text-black pb-3">附件檔案 123</h4> -->
-                        <div class="row">
-                            <div class="py-1"><button class="btn btn-primary flex-column align-items-center gap-1">
-                                    <i class="bi bi-plus-circle"></i>加入違反法條
-                                </button></div>
+                                <div class="col-md-3">
+                                    <dl class="row mb-0">
 
-                            <div class="col-12 mb-3">
-                                <div class="border border-1 rounded border-light p-4">
-                                    <h4 class="text-black pb-1">第19項第1款</h4>
-                                    <div class="col-md-12 py-2 ps-3">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>2-3.未向保戶就明投資型商品《重要事項告知害包括各填費用、投資標的及其圍險相開會語與其化煙主管樓閱定之事項等之內容2-3.未向保戶就明投資型商品《重要事項告知害包括各填費用、投資標的及其圍險相開會語與其化煙主管樓閱定之事項等之內容
-                                                </p>
-                                            </div>
-                                            <div class="col-5">
-                                                <div class="d-flex">
-                                                    <label for="in1" class="form-label px-3">開始日期</label>
-                                                    <div class="input-group">
-                                                        <input id="datepicker" type="text"
-                                                            class="form-control border-end-0" placeholder="MM DD, YYYY">
-                                                        <span class="input-group-text border-start-0">
-                                                            <i class="bi bi-calendar-week fs-5"></i>
-                                                        </span>
-                                                    </div>
-                                                    <label for="in2" class="form-label px-3">停止招攔</label>
-                                                    <div class="d-flex flex-md-row flex-column gap-3">
-                                                        <input type="text" class="form-control" id="" value="3"
-                                                            placeholder="">
-                                                    </div><span class="px-3">個月</span>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-1 m-auto">
-                                                <button class="btn btn-outline-danger d-flex align-items-center gap-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">移除</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        <dt class="col-sm-3">懲處狀態:</dt>
+                                        <dd class="col-sm-8">停招懲處中</dd>
+                                        <dt class="col-sm-3">懲處開始日期:</dt>
+                                        <dd class="col-sm-8">112/05/20</dd>
+                                        <dt class="col-sm-3">懲處結束日期:</dt>
+                                        <dd class="col-sm-8">112/09/20</dd>
+                                        <dt class="col-sm-3">停招懲處累積月數:</dt>
+                                        <dd class="col-sm-8">4</dd>
+                                        <dt class="col-sm-3">更新時間:</dt>
+                                        <dd class="col-sm-8">111/10/2013:20</dd>
+                                        <dt class="col-sm-3">建檔時間:</dt>
+                                        <dd class="col-sm-8">111/10/0509:20</dd>
+                                        <dt class="col-sm-3">人員備註:</dt>
+                                        <dd class="col-sm-8">xxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxx</dd>
+                                    </dl>
                                 </div>
-                            </div>
-
-                            <div class="col-12 mb-3">
-                                <div class="border border-1 rounded border-light p-4">
-                                    <h4 class="text-black pb-1">第19項第1款</h4>
-                                    <div class="col-md-12 py-2 ps-3">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>2-3.未向保戶就明投資型商品《重要事項告知害包括各填費用、投資標的及其圍險相開會語與其化煙主管樓閱定之事項等之內容2-3.未向保戶就明投資型商品《重要事項告知害包括各填費用、投資標的及其圍險相開會語與其化煙主管樓閱定之事項等之內容
-                                                </p>
-                                            </div>
-                                            <div class="col-5">
-                                                <div class="d-flex">
-                                                    <label for="in1" class="form-label px-3">開始日期</label>
-                                                    <div class="input-group">
-                                                        <input id="datepicker" type="text"
-                                                            class="form-control border-end-0" placeholder="MM DD, YYYY">
-                                                        <span class="input-group-text border-start-0">
-                                                            <i class="bi bi-calendar-week fs-5"></i>
-                                                        </span>
-                                                    </div>
-                                                    <label for="in2" class="form-label px-3">停止招攔</label>
-                                                    <div class="d-flex flex-md-row flex-column gap-3">
-                                                        <input type="text" class="form-control" id="" value="3"
-                                                            placeholder="">
-                                                    </div><span class="px-3">個月</span>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-1 m-auto">
-                                                <button class="btn btn-outline-danger d-flex align-items-center gap-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">移除</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="in1" class="form-label">登錄附件</label>
-                                    <button type="file"
-                                        class="btn btn-outline-secondary d-flex flex-row align-items-center gap-1">
-                                        <i class="bi bi-plus-circle"></i> 上傳檔案
-                                    </button>
-                                </div>
-
-
-
-                                <div class="mb-3">
-                                    <label for="in1" class="form-label">備註</label>
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here"
-                                            id="floatingTextarea2" style="height: 100px"></textarea>
-                                        <label for="floatingTextarea2"></label>
-                                    </div>
-                                    <!-- <div class="d-flex flex-md-row flex-column gap-3">
-                                        <input type="text" class="form-control" id="" value="" placeholder="請輸人...">
-                                    </div> -->
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="d-flex justify-content-end align-content-center mt-3 gap-2">
-                                <button class="btn btn-primary btn-lg d-flex align-items-center gap-2">儲存變更</button>
                             </div>
                         </div>
                     </div>
 
-                </div>
+                    <div class="w-100">
+                        <a class="text-black " data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="true" aria-controls="collapseExample">
+                            <span class="h3">測驗合格摘要</span> <i class="bi bi-chevron-down pl-2"></i>
+                        </a>
+                    </div>
 
+                    <div class="collapse show" id="collapseExample">
+                        <div class="card card-body">
+                            <div class="card bg-white p-4">
+                                <div class="row">
+                                    <div class="row mb-4">
+                                        <div class="col-md-3">
+                                            <dl class="row mb-0">
+                                                <dt class="col-sm-3">資格測驗合格證號</dt>
+                                                <dd class="col-sm-8">xxxxxxxxx</dd>
+                                                <dt class="col-sm-3">共同科目合格證號</dt>
+                                                <dd class="col-sm-8">xxxxxxxxx</dd>
+                                                <dt class="col-sm-3">外幣測驗合格證號</dt>
+                                                <dd class="col-sm-8">xxxxxxxxx</dd>
+                                                <dt class="col-sm-3">投資型測驗合格證號</dt>
+                                                <dd class="col-sm-8">xxxxxxxxx</dd>
+                                                <dt class="col-sm-3">理財規劃測驗合格證號</dt>
+                                                <dd class="col-sm-8">xxxxxxxxx</dd>
+                                                <dt class="col-sm-3">中級測驗合格證號</dt>
+                                                <dd class="col-sm-8">xxxxxxxxx</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100">
+                        <a class="text-black" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                            aria-expanded="true" aria-controls="collapseExample1">
+                            <span class="h3">教育訓練摘要</span> <i class="bi bi-chevron-down pl-2"></i>
+                        </a>
+                    </div>
+
+                    <div class="collapse show" id="collapseExample1">
+                        <div class="card card-body">
+                            <div class="card bg-white p-4">
+                                <div class="row">
+                                    <div class="row mb-4">
+                                        <div class="col-md-3">
+                                            <dl class="row mb-0">
+                                                <dt class="col-sm-4">法遵6小時</dt>
+                                                <dd class="col-sm-8">110(8),111(10),112(0) <a href="#">[查看]</a></dd>
+                                                <dt class="col-sm-4">內部教育訓練</dt>
+                                                <dd class="col-sm-8">第1年(110/03/16),第2年(111/03/17),第3年(112/03/06) <a
+                                                        href="#">[查看]</a></dd>
+                                                <dt class="col-sm-4">年金保險教育訓練</dt>
+                                                <dd class="col-sm-8">傳統,利率 <a href="#">[查看]</a></dd>
+                                                <dt class="col-sm-4">連接結構型商品之投資型保險教育訓練</dt>
+                                                <dd class="col-sm-8">完成 <a href="#">[查看]</a></dd>
+                                                <dt class="col-sm-4">基金相關課程教育訓練</dt>
+                                                <dd class="col-sm-8"> <a href="#">[查看]</a></dd>
+                                                <dt class="col-sm-4">匯率風險及外匯相關法規教育訓練</dt>
+                                                <dd class="col-sm-8">111年 <a href="#">[查看]</a></dd>
+                                                <dt class="col-sm-4">老年保險商品教育訓練</dt>
+                                                <dd class="col-sm-8">111年 <a href="#">[查看]</a></dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="h3 mb-3">業務員登錄歷程</p>
+                    <div class="">
+                        <div class="mb-3 d-flex flex-md-row flex-column  gap-2">
+                            <button class="btn btn-primary d-flex flex-column align-items-center gap-1">
+                                一般/變更登錄
+                            </button>
+                            <button class="btn btn-outline-primary d-flex flex-column align-items-center gap-1">
+                                懲處登錄
+                            </button>
+                            <div class="w-25 d-flex">
+                                <label for="in1" class="form-label">作業代碼</label>
+                                <select id="" class="form-select">
+                                    <option selected="">B發證</option>
+                                    <option>A發證</option>
+                                </select>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <caption>List of users</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">登錄作業</th>
+                                    <th scope="col">登錄單位</th>
+                                    <th scope="col">申請資訊</th>
+                                    <th scope="col">懲處內容</th>
+                                    <th scope="col">記錄狀態</th>
+                                    <th scope="col">備註</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">A新登錄 <br> SN123456789 (V1)</th>
+                                    <td>南山人壽</td>
+                                    <td>南山人壽 <br> 110/01/05</td>
+                                    <td>- -</td>
+                                    <td>正常</td>
+                                    <td>- -</td>
+                                    <td class="text-center"><a href="" class="btn btn-primary align-items-center gap-1">
+                                            編輯
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">B新登錄 <br> SN123456789 (V1)</th>
+                                    <td>南山人壽</td>
+                                    <td>南山人壽 <br> 110/01/05</td>
+                                    <td>- -</td>
+                                    <td>正常</td>
+                                    <td>- -</td>
+                                    <td class="text-center"><a href="" class="btn btn-primary align-items-center gap-1">
+                                            編輯
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">C新登錄 <br> SN123456789 (V1)</th>
+                                    <td>南山人壽</td>
+                                    <td>南山人壽 <br> 110/01/05</td>
+                                    <td>- -</td>
+                                    <td>正常</td>
+                                    <td>- -</td>
+                                    <td class="text-center"><a href="" class="btn btn-primary align-items-center gap-1">
+                                            編輯
+                                        </a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
             </div>
             <!-- FOOTER -->
             <footer class="mt-auto">
