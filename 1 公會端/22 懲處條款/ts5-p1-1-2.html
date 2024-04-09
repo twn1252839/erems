@@ -74,10 +74,8 @@
                         <div class="d-flex flex-column">
                             <h2 class="">業務員懲處條款</h2>
                         </div>
-                        <div class="d-flex gap-2 align-content-center float-end flex-wrap">
-                            <a href=""><button
-                                    class="btn btn-outline-secondary d-flex align-items-center gap-2">新增條文項次</button></a>
-                        </div>
+                        <button class="btn btn-outline-secondary d-flex align-items-center gap-2" data-bs-toggle="modal"
+                            data-bs-target="#Modal4">新增條文項次</button>
                     </div>
 
                 </div>
@@ -136,15 +134,21 @@
                             </div>
                             <div class="d-flex gap-2 align-content-center float-end flex-wrap">
                                 <div class="col-md-12">
-                                    <div class="d-flex gap-2 flex-row justify-content-end">
-                                        <button class="btn btn-outline-danger d-flex align-items-center gap-2"
-                                            data-bs-toggle="modal" data-bs-target="#Modal1"><i
-                                                class="pli-close fs-5"></i>停用</button>
-                                        <a href=""><button
-                                                class="btn btn-outline-secondary d-flex align-items-center gap-2"><i
-                                                    class="pli-calendar-4"></i>日誌</button></a>
-                                        <a href=""><button
-                                                class="btn btn-outline-secondary d-flex align-items-center gap-2">編輯</button></a>
+                                    <div class="d-flex gap-2 align-content-center float-end flex-wrap">
+                                        <div class="col-md-12">
+                                            <div class="d-flex gap-2 flex-row justify-content-end">
+                                                <a href=""><button
+                                                        class="btn btn-outline-danger d-flex align-items-center gap-2"><i
+                                                            class="pli-close fs-5"></i>停用</button></a>
+                                                <button
+                                                    class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal2"><i
+                                                        class="pli-calendar-4"></i>日誌</button>
+                                                <button
+                                                    class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal3">編輯</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -162,205 +166,67 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="table-responsive">
-                            <table class="table text-black">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <p>第1款</p>
-                                            <!-- <h3>張xx</h3> -->
-                                        </td>
-                                        <td class="">
-                                            <p class="mb-1">唆使要保人或被保險人對保險人為不告知或不實之告知:或明知要保人或被保險人不告知
-                                                或為不實之告知而故意隱圈。</p>
-                                        </td>
-
-                                        <td class="position-relative">
+                        <!-- 1 -->
+                        <div class="jumbotron bg-white px-3 py-2 rounded">
+                            <div class="row align-items-center">
+                                <div class="col-1">
+                                    <p class="my-auto">第3款</p>
+                                </div>
+                                <div class="col-7">
+                                    <p class="my-auto">妨害要保人或被保險人為告知。 (得由各所屬公司依情節輕重函送悠處)</p>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex gap-2 align-content-center float-end flex-wrap">
+                                        <div class="col-md-12">
                                             <div class="d-flex gap-2 flex-row justify-content-end">
+                                                <a href=""><button
+                                                        class="btn btn-outline-danger d-flex align-items-center gap-2"><i
+                                                            class="pli-close fs-5"></i>停用</button></a>
                                                 <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 p-1"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1"><i
-                                                        class="pli-close fs-5"></i>停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 p-1"><i
-                                                            class="pli-calendar-4"></i>日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-1 px-2">編輯</button></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="">
-                                            <p class="mb-1">態樣1</p>
-                                            <p class="mb-1">態樣2</p>
-                                            <p class="mb-1">態樣3</p>
-                                            <div class="d-flex gap-2 flex-row justify-content-end px-0">
-                                                <a href="" class="py-2"><button
-                                                        class="btn btn-outline-secondary p-0 m-0 px-2 d-flex align-items-center gap-2">+新增態樣</button></a>
-                                            </div>
-                                        </td>
-                                        <td class="">
-                                            <p class="mb-1">保單人外觀明顯可見或業務員明知應告知事項而惡意隱匿<span
-                                                    class="float-end">停止招攬24個月</span></p>
-                                            <p class="mb-1">協助、任憑保戶偽造造或做不實之登要保書、申件其他件<span
-                                                    class="float-end">停止招攬24個月</span></p>
-                                            <p class="mb-1">唆使(誘導)要保人或被保險人對應告知事項做不實之告知。<span
-                                                    class="float-end">停止招攬24個月</span></p>
-                                        </td>
-                                        <td class="position-relative">
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
+                                                    class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal2"><i
+                                                        class="pli-calendar-4"></i>日誌</button>
                                                 <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 py-0 px-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">編輯</button></a>
+                                                    class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal3">編輯</button>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <hr class="my-3">
+                            <div class="d-flex gap-2 flex-row px-0">
+                                <button class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                    data-bs-toggle="modal" data-bs-target="#Modal1">+新增態樣</button>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-1">
+                                    <p class="my-auto">第3款</p>
+                                </div>
+                                <div class="col-7">
+                                    <p class="my-auto">妨害要保人或被保險人為告知。 (得由各所屬公司依情節輕重函送悠處)<span
+                                            class="float-end">停止招攬24個月</span></p>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex gap-2 align-content-center float-end flex-wrap">
+                                        <div class="col-md-12">
                                             <div class="d-flex gap-2 flex-row justify-content-end">
+                                                <a href=""><button
+                                                        class="btn btn-outline-danger d-flex align-items-center gap-2"><i
+                                                            class="pli-close fs-5"></i>停用</button></a>
                                                 <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 py-0 px-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">編輯</button></a>
-                                            </div>
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
+                                                    class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal2"><i
+                                                        class="pli-calendar-4"></i>日誌</button>
                                                 <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 py-0 px-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">編輯</button></a>
+                                                    class="btn btn-outline-secondary d-flex align-items-center gap-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal3">編輯</button>
                                             </div>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                            <table class="table text-black">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <p>第2款</p>
-                                        </td>
-                                        <td class="">
-                                            <p class="mb-1">妨害要保人或被保險人為告知。 (得由各所屬公司依情節輕重函送悠處)</p>
-                                        </td>
-
-                                        <td class="position-relative">
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
-                                                <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 p-1"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1"><i
-                                                        class="pli-close fs-5"></i>停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 p-1"><i
-                                                            class="pli-calendar-4"></i>日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-1 px-2">編輯</button></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="">
-                                            <div class="d-flex gap-2 flex-row justify-content-end px-0">
-                                                <a href="" class="py-2"><button
-                                                        class="btn btn-outline-secondary p-2 d-flex align-items-center gap-2">+新增態樣123</button></a>
-                                            </div>
-                                        </td>
-                                        <td class="">
-                                            <p class="mb-1"></p>
-                                        </td>
-                                        <td class="position-relative">
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
-
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                            <table class="table text-black">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <p>第3款</p>
-                                        </td>
-                                        <td class="">
-                                            <p class="mb-1">對要保人、被保險人或第三人以誇大不實之宣傳、廣告或其他不當之方法為招攬。</p>
-                                        </td>
-
-                                        <td class="position-relative">
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
-                                                <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 p-1"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1"><i
-                                                        class="pli-close fs-5"></i>停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 p-1"><i
-                                                            class="pli-calendar-4"></i>日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-1 px-2">編輯</button></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="">
-                                            <p class="mb-1">態樣1</p>
-                                            <p class="mb-1">態樣2</p>
-                                            <p class="mb-1">態樣3</p>
-                                            <p class="mb-1">態樣4</p>
-                                            <div class="d-flex gap-2 flex-row justify-content-end px-0">
-                                                <a href="" class="py-2"><button
-                                                        class="btn btn-outline-secondary p-0 m-0 px-2 d-flex align-items-center gap-2">+新增態樣</button></a>
-                                            </div>
-                                        </td>
-                                        <td class="">
-                                            <p class="mb-1">未考慮(準)客戶之保險需求,而假借節稅、基金、款等其他名之<span
-                                                    class="float-end">停止招攬3個月</span></p>
-                                            <p class="mb-1">[已停用】逾越公司授範圍,擅自利用話術或其他方式進行不當陳述承諾或證為招行為者<span
-                                                    class="float-end">停止招攬3個月</span></p>
-                                            <p class="mb-1">唆使(誘導)要保人或被保險人對應告知事項做不實之告知。<span
-                                                    class="float-end">停止招攬10個月</span></p>
-                                            <p class="mb-1">唆使(誘導)要保人或被保險人對應告知事項做不實之告知。<span
-                                                    class="float-end">停止招攬3個月</span></p>
-                                        </td>
-                                        <td class="position-relative">
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
-                                                <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 py-0 px-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">編輯</button></a>
-                                            </div>
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
-                                                <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 py-0 px-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">編輯</button></a>
-                                            </div>
-                                            <div class="d-flex gap-2 flex-row justify-content-end">
-                                                <button
-                                                    class="btn btn-outline-danger d-flex align-items-center gap-2 py-0 px-2"
-                                                    data-bs-toggle="modal" data-bs-target="#Modal1">停用</button>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">日誌</button></a>
-                                                <a href=""><button
-                                                        class="btn btn-outline-secondary d-flex align-items-center gap-2 py-0 px-2">編輯</button></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -679,31 +545,22 @@
         <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">標示審查錯誤</h4>
+                    <h4 class="modal-title">新增樣態</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="col-md-12 py-2">
-                        <dl class="row mb-3">
-                            <dt class="col-md-2">報名單位 :</dt>
-                            <dd class="col-md-10">OOOO保險公司</dd>
-                            <dt class="col-md-2">報名人員 :</dt>
-                            <dd class="col-md-10">張OO,A123456789</dd>
-                        </dl>
+                        <p class="text-black">第 <span class="px-1">13</span> 條,第<span class="px-1">1</span>項,第<span
+                                class="px-1">1</span>教</p>
                         <div class="row">
-                            <div class="col-12 mb-3">
-                                <label for="textareaInput1" class="mb-2">審查錯誤原因</label>
-                                <select id="textareaInput1" class="form-select">
-                                    <option selected="">附件檔案不正確</option>
-                                    <option>原因1</option>
-                                    <option>原因2</option>
-                                    <option>原因3</option>
-                                </select>
-                            </div>
                             <div class="col-12">
-                                <label class="mb-2">備註說明</label>
+                                <label class="mb-2">樣態内容</label>
                                 <textarea id="_dm-textareaInput" class="form-control" placeholder="請輸入說明文字或選擇錯誤項目帶入…"
                                     rows="3"></textarea>
+                            </div>
+                            <div class="col-12 mb-3 pt-2">
+                                <label for="textareaInput1" class="mb-2">預設停招月數*</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="24">
                             </div>
                         </div>
 
@@ -711,7 +568,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-bs-dismiss="modal">取 消</button>
-                    <button type="button" class="btn btn-primary">確 定</button>
+                    <button type="button" class="btn btn-primary">新 增</button>
                 </div>
             </div>
         </div>
@@ -720,30 +577,22 @@
         <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">確認[審查退回]</h4>
+                    <h4 class="modal-title">新增樣態2</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="col-md-12 py-2">
-                        <dl class="row mb-3">
-                            <dt class="col-md-3">報名單位 :</dt>
-                            <dd class="col-md-9">OOOO保險公司</dd>
-                            <dt class="col-md-3">報名送審人數 :</dt>
-                            <dd class="col-md-9">49人</dd>
-                            <dt class="col-md-3">審查錯誤人數 :</dt>
-                            <dd class="col-md-9">1人</dd>
-                            <dt class="col-md-3">審查結果 :</dt>
-                            <dd class="col-md-9">審查退回</dd>
-                        </dl>
+                        <p class="text-black">第 <span class="px-1">13</span> 條,第<span class="px-1">1</span>項,第<span
+                                class="px-1">1</span>教</p>
                         <div class="row">
-                            <div class="col-12 mb-3">
-                                <label class="mb-2">審查結果說明</label>
-                                <textarea id="" class="form-control" placeholder="請輸入說明文字或選擇錯誤項目帶入…"
+                            <div class="col-12">
+                                <label class="mb-2">樣態内容</label>
+                                <textarea id="_dm-textareaInput" class="form-control" placeholder="請輸入說明文字或選擇錯誤項目帶入…"
                                     rows="3"></textarea>
                             </div>
-                            <div class="col-12">
-                                <label class="mb-2">日誌備註</label>
-                                <textarea id="" class="form-control" placeholder="請輸入…" rows="3"></textarea>
+                            <div class="col-12 mb-3 pt-2">
+                                <label for="textareaInput1" class="mb-2">預設停招月數*</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="24">
                             </div>
                         </div>
 
@@ -751,7 +600,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-bs-dismiss="modal">取 消</button>
-                    <button type="button" class="btn btn-primary">送 出</button>
+                    <button type="button" class="btn btn-primary">新 增</button>
                 </div>
             </div>
         </div>
@@ -760,32 +609,27 @@
         <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">確認[審查完成]</h4>
+                    <h4 class="modal-title">編輯樣態</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="col-md-12 py-2">
-                        <dl class="row mb-3">
-                            <dt class="col-md-3">報名單位 :</dt>
-                            <dd class="col-md-9">OOOO保險公司</dd>
-                            <dt class="col-md-3">報名送審人數 :</dt>
-                            <dd class="col-md-9">49人</dd>
-                            <dt class="col-md-3">審查通過人數 :</dt>
-                            <dd class="col-md-9">48人</dd>
-                            <dt class="col-md-3">審查不通過人數 :</dt>
-                            <dd class="col-md-9">1人</dd>
-                            <dt class="col-md-3">審查結果 :</dt>
-                            <dd class="col-md-9">審查完成</dd>
-                        </dl>
+                        <p class="text-black">第 <span class="px-1">13</span> 條,第<span class="px-1">1</span>項,第<span
+                                class="px-1">1</span>教</p>
                         <div class="row">
-                            <div class="col-12 mb-3">
-                                <label class="mb-2">審查結果說明</label>
-                                <textarea id="" class="form-control" placeholder="請輸入說明文字或選擇錯誤項目帶入…"
-                                    rows="3"></textarea>
+                            <div class="col-12">
+                                <label class="mb-2">樣態内容</label>
+                                <textarea id="_dm-textareaInput" class="form-control" placeholder=""
+                                    rows="3">以冠有不實職或逾公司授權業務之名片,或其他表明業務身或承作之訊息,為招行為或利用其職務身分之行為,致有混淆消費者認知之處。</textarea>
+                            </div>
+                            <div class="col-12 mb-3 pt-2">
+                                <label for="textareaInput1" class="mb-2">預設停招月數*</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="24">
                             </div>
                             <div class="col-12">
                                 <label class="mb-2">日誌備註</label>
-                                <textarea id="" class="form-control" placeholder="請輸入…" rows="3"></textarea>
+                                <textarea id="_dm-textareaInput" class="form-control" placeholder=""
+                                    rows="3"></textarea>
                             </div>
                         </div>
 
@@ -793,7 +637,44 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-bs-dismiss="modal">取 消</button>
-                    <button type="button" class="btn btn-primary">完 成</button>
+                    <button type="button" class="btn btn-primary">新 增</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal4" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">新增條文項次</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12 py-2">
+                        <!-- <p class="text-black">第 <span class="px-1">13</span> 條,第<span class="px-1">1</span>項,第<span
+                                class="px-1">1</span>教</p> -->
+                        <div class="row">
+
+                            <div class="col-6 mb-3 pt-2">
+                                <label for="textareaInput1" class="mb-2">條文號*</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="13">
+                            </div>
+                            <div class="col-6 mb-3 pt-2">
+                                <label for="textareaInput1" class="mb-2">項次號*</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="1">
+                            </div>
+                            <div class="col-12">
+                                <label class="mb-2">說明</label>
+                                <textarea id="_dm-textareaInput" class="form-control" placeholder=""
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">取 消</button>
+                    <button type="button" class="btn btn-primary">新 增</button>
                 </div>
             </div>
         </div>
